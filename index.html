@@ -1,10 +1,40 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ja">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+    <style>
+      img {
+        border-radius: 50%;
+        cursor: pointer;
+        transition: border-radius 0.5s;
+      }
+      .changed {
+        border-radius: 0%;
+      }
+      section {
+        border-width: 1px;
+        border-color: gray;
+        border-style: solid;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 8px;
+        background-image: url(background.png);
+      }
+      body {
+        text-align: center;
+      }
+    </style>
   </head>
-  <body></body>
-  <script src="index.js"></script>
+  <body>
+    <section>
+      <img src="rakko.png" alt="FJのアイコン画像です" id="trigger" />
+      <h1>山田太郎</h1>
+      <p id="target">
+        UI/UXデザイナー見習いです。日々の勉強、がんばっています。
+      </p>
+    </section>
+    <footer>(c) dotinstall.com</footer>
+    <script src="index.js"></script>
+  </body>
 </html>
