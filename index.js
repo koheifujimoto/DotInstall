@@ -3,7 +3,7 @@
 
 function process() {
   // textの中身を置き換えるtextContent method
-  document.getElementById("target").textContent = "すっごく真面目です!";
+  document.getElementById("target").textContent = "のんのん日記";
   document.getElementById("trigger").classList.add("changed");
 }
 
